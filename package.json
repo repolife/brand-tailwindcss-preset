@@ -1,6 +1,6 @@
 {
   "name": "dc-tailwindcss-preset",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Presets for tailwindcss",
   "files": [
     "dc-preset.js"
