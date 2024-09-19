@@ -1,5 +1,5 @@
 {
-  "name": "@dc-tailwindcss-preset",
+  "name": "dc-tailwindcss-preset",
   "version": "1.0.0",
   "description": "Presets for tailwindcss",
   "files": [
