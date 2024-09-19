@@ -5,13 +5,23 @@
   "files": [
     "dc-preset.js"
   ],
+  "main": "dc-preset.js",
   "keywords": [
     "tailwindcss",
-    "preset"
+    "preset",
+    "css"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Vargas",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15"
+  }
 }
