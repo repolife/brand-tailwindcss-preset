@@ -15,23 +15,25 @@ module.exports = {
     },
     fontFamily: { brand: ["plantin-mt-pro", "fakt-tt", "sans-serif"] },
     colors: {
-      brown: {
-        DEFAULT: "#7F594C",
-        "light-brown": "#BCDOE7",
-      },
-      blue: {
-        DEFAULT: "#669AC5",
-        "dc-navy": "#3A547C",
-        "bg-light": "#D8E5F4",
-      },
-      grey: {
-        dark: "50545D",
-        DEFAULT: "#9AA4AF",
-        light: "#C2C6C9",
-        "dc-taupe": "#B7BOAF",
-      },
+      brand: {
+        brown: {
+          DEFAULT: "#7F594C",
+          "light-brown": "#BCDOE7",
+        },
+        blue: {
+          DEFAULT: "#669AC5",
+          "dc-navy": "#3A547C",
+          "bg-light": "#D8E5F4",
+        },
+        grey: {
+          dark: "50545D",
+          DEFAULT: "#9AA4AF",
+          light: "#C2C6C9",
+          "dc-taupe": "#B7BOAF",
+        },
 
-      orange: { DEFAULT: "#B76646", "light-orange": "#E2C2B5" },
+        orange: { DEFAULT: "#B76646", "light-orange": "#E2C2B5" },
+      },
     },
     plugins: [
       require("@tailwindcss/typography"),
